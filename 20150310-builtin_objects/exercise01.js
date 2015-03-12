@@ -30,4 +30,4 @@ var result = range(n)
   .filter(divisible_by_4)
   .reduce(sum);
 
-console.log(result
+console.log(result);
