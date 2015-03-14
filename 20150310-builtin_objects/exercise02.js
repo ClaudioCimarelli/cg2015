@@ -25,7 +25,7 @@ var n = 10;
 var a = push_numbers(n, randomNumber(max, min));
 
 //exercise 2b
-a.filter(filter_oddNumber);
+a = a.filter(filter_oddNumber);
 
 //exercise 2c
-a.sort(sort_numbers_ascendent)
+a =a.sort(sort_numbers_ascendent);
