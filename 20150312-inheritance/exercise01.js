@@ -27,5 +27,5 @@ SecurityDoor.prototype.unlock = function(){
 	};
 SecurityDoor.prototype.open = function(){
 	if(!this.locked)
-		Door.prototype.call(this);
+		Door.prototype.open.call(this);
 	};
