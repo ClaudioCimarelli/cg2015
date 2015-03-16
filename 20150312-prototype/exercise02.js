@@ -2,8 +2,8 @@
   var randomNumber = function(max, min){
   return function(){
        return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
-}
+  };
+};
   var favorite_album = function( collection ) {
     // do nothing if got an empty collection
     if ( collection.length === 0 ) {
@@ -34,7 +34,7 @@
       for(var i=0 ; i<this.music.length;i++){
         this.music[i].played += numberFunction();
       }
-    }
+    };
   }
   function Track(played_times){
     this.played= played_times;
@@ -52,7 +52,6 @@
   // Bonus: Write code here to make the following line print the above line
   fav.constructor.prototype.toString = function(){
     return "Your favorite album was played " + this.play + " times";
-  }
+  };
   console.log( ""+fav );
 }());
-

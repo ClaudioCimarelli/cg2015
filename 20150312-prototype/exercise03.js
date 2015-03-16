@@ -1,16 +1,16 @@
 (function () {
-  // write your code here to make the program work 
+  // write your code here to make the program work
   function Summer(){
     this.current_sum = 0;
   }
 
   Summer.prototype.add = function(num){
     this.current_sum += num;
-  }
+  };
 
   Summer.prototype.getCurrentSum = function(){
     return this.current_sum;
-  } 
+  } ;
 
   var s1 = Summer();
   var s2 = Summer();

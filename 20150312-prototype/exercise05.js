@@ -4,4 +4,4 @@ function Bingo(){
 
 Bingo.prototype.guess = function(number){
 	return this.secret_number === number;
-}
+};

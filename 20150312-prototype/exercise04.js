@@ -13,7 +13,7 @@
 
 	// print Vrum Vrum
 	car.drive();
-	
+
 	car.price=1001;
 
 	// print I'm rich
@@ -29,7 +29,7 @@
 
 	Employee.prototype.hello = function(){
 			console.log("I work at IBM");
-		}
+		};
 
 	var employees = [new Employee(), new Employee(), new Employee()];
 
