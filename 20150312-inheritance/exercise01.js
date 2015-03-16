@@ -4,11 +4,11 @@ function Door(){
 
 Door.prototype.open = function(){
 	this.opened = true;
-}
+};
 
 Door.prototype.close = function(){
 	this.state = false;
-}
+};
 
 function SecurityDoor(){
 	Door.call(this);
